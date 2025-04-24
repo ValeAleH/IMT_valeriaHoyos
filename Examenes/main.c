@@ -28,7 +28,7 @@ int main(void) {
             case 1:
                 if(a > 0){
                     saludo1();
-                    if(esPrimo(int a)){
+                    if(esPrimo( a)){
                         printf("El numero %d es primo\n", a);
 
                     }else{
@@ -43,7 +43,7 @@ int main(void) {
             case 2:
                 if(a > 0){
                     saludo2();
-                    printf(factorial(int a));
+                    printf(factorial( a));
       
                 }else{
                 printf("Ingrese un numero positivo");
@@ -53,7 +53,7 @@ int main(void) {
             case 3:
                 if(a > 0){
                     saludo3();
-                    printf(contarDigitos(int a));
+                    printf(contarDigitos(a));
                 }else{
                    printf("Ingrese un numero positivo");
                 }
@@ -61,7 +61,7 @@ int main(void) {
             case 4:
                  if(a > 0){
                     saludo4();
-                    printf(esMultiploDe3(int a));
+                    printf(esMultiploDe3(a));
                
       
                 }else{
